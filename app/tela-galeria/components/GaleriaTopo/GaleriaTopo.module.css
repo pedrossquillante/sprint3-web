@@ -1,0 +1,90 @@
+.hotbarUP {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  top: -1px;
+  width: 100%;
+  height: 35%;
+}
+
+.bateria {
+  position: absolute;
+  width: 100%;
+  height: 13%;
+  top: 1px;
+  background-color: transparent;
+  background-image: url(/../../../cons2/bateria.png);
+  background-size: 299px;
+  background-repeat: no-repeat;
+}
+
+.fotof1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 20%;
+  background-color: transparent;
+  background-image: url(../../../icons/image5.png);
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+
+.pastamovimento {
+  position: absolute;
+  top: 120px;
+  font-size: 27px;
+  color: white;
+  left: 35px;
+}
+
+.parimagens {
+  position: absolute;
+  top: 169px;
+  left: 105px;
+  color: gray;
+  font-size: 17px;
+}
+
+.voltar {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  top: 165px;
+  left: 10px;
+  background-image: url(../../../icons/image10.png);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: 5px;
+  display: block;
+}
+
+.aleatorio1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  top: 165px;
+  left: 220px;
+  background-image: url(../../../icons/lupa.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 0px 2px;
+}
+
+.aleatorio2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  top: 165px;
+  left: 255px;
+  background-image: url(../../../icons/botaotrespontos.png);
+  background-repeat: no-repeat;
+  background-size: 5px;
+  background-position: 12px 6px;
+  border: none;
+  padding: 0;
+}

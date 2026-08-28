@@ -1,0 +1,23 @@
+.n1{
+  position: absolute;
+  background-color: rgb(2, 0, 0);
+  width: 100%;
+  height: 15%;
+  top: -6px;
+  left: -5px;
+  margin: 5px;
+  padding-top: 5px;
+  border: black;
+}
+.n{
+  position: relative;
+  font-size: 16px;
+  color: rgba(253, 253, 253, 0.849);
+  align-items: center;
+  justify-content: space-around;
+  left: 4px;
+  margin-left: 6px;
+}
+.nblue{
+  color: #5779FF;
+}

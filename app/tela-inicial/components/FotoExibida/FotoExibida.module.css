@@ -1,0 +1,50 @@
+.tela{
+  position: absolute;
+  background-image: url(../../../icons/image5.png);
+  background-size: 300px;
+  width: 100%;
+  height: 66%;
+  top: 10%;
+  left: 0%;
+  background-repeat: no-repeat;
+}
+.bttns{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 5%;
+  top: 69%;
+}
+.bttns1{
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  top: 5px;
+  left: 35%;
+  background-image: url(../../../icons/bttns1.png);
+  background-repeat: no-repeat;
+  background-size: 70px;
+}
+.bttns2{
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  top: 5px;
+  left: 43%;
+  background-image: url(../../../icons/bttns2.png);
+  background-repeat: no-repeat;
+  background-size: 23px;
+}
+.bttns3{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  left: 86%;
+  top: 2px;
+  background-image: url(../../../icons/bttns3.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: -2px;
+  display: block;
+}
