@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 1 - Tecnologias utilizadas
 
-## Getting Started
+React — biblioteca para construção dos componentes de interface,
+Next.js — framework usado via create-next-app, com App Router,
+CSS Modules — para estilização,
+JavaScript puro — sem TypeScript (essa opção foi descartada na configuração inicial),
+ESLint — para linting do código,
+Git/GitHub — para versionamento do projeto.
 
-First, run the development server:
+# 2 - Como instalar as dependências
 
-```bash
+Para iniciar um projeto com React usando Next.js, siga os passos abaixo. Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+
+Rode o comando: npx create-next-app@latest sprint3-web
+
+Ao rodar esse comando, a primeira pergunta oferece três opções. 
+
+Escolha No, customize settings:
+
+Perguntas e Respostas:
+Would you like to use the recommended Next.js defaults? → No, customize settings
+Would you like to use TypeScript? → No
+Which linter would you like to use? → ESLint
+Would you like to use React Compiler? → Yes
+Would you like to use Tailwind CSS? → No
+Would you like your code inside a `src/` directory? → No
+Would you like to use App Router? (recommended) → Yes
+Would you like to customize the import alias (`@/*` by default)? → No
+Would you like to include AGENTS.md? → No
+
+# 3 - Como executar o projeto
+
+Depois da instalação, entre na pasta do projeto e inicie o servidor de desenvolvimento:
+
+cd meu-app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acesse o navegador no endereço http://localhost:3000 para ver a aplicação funcionando.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# PONTO IMPORTANTE
+Após a criação do projeto, observe alguns arquivos gerados automaticamente:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+package.json – registra dependências e scripts como dev, build e start.
+.gitignore – lista arquivos e pastas que não devem ser enviados ao Git.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Os scripts mais utilizados são:
 
-## Learn More
+npm run dev – inicia o servidor de desenvolvimento com recarregamento automático.
+npm run build – cria uma versão otimizada para produção.
+npm run start – executa a aplicação após o build.
 
-To learn more about Next.js, take a look at the following resources:
+# 4 - Onde foi utilizada a IA nesse projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ao longo do desenvolvimento deste projeto, contei com o apoio de uma inteligência artificial principalmente como fonte de auxílio e orientação, e não como uma ferramenta que resolvesse o trabalho por mim. Utilizei a IA sobretudo para esclarecer dúvidas pontuais, buscar explicações mais claras sobre determinados conceitos e obter exemplos práticos de como aplicar certas soluções da maneira correta dentro do contexto do projeto. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Um dos pontos em que essa ajuda foi mais relevante foi na criação do componente "PassarSlide", onde busquei orientações sobre a melhor forma de estruturar sua lógica e integrá-lo ao restante da aplicação. Além disso, recorri à IA para compreender melhor algumas funcionalidades do React.js que iam um pouco além do básico, o que me ajudou a entender não apenas como implementar soluções um pouco mais complexas, mas também por que elas funcionam daquela forma.
 
-## Deploy on Vercel
+# 5 - Link do Deploy na Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## será aplicado após subir no git
