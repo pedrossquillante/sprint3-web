@@ -36,7 +36,7 @@ cd meu-app
 npm run dev
 Acesse o navegador no endereço http://localhost:3000 para ver a aplicação funcionando.
 
-# PONTO IMPORTANTE
+## PONTO IMPORTANTE
 Após a criação do projeto, observe alguns arquivos gerados automaticamente:
 
 package.json – registra dependências e scripts como dev, build e start.
@@ -56,4 +56,4 @@ Um dos pontos em que essa ajuda foi mais relevante foi na criação do component
 
 # 5 - Link do Deploy na Vercel
 
-## será aplicado após subir no git
+https://sprint3-web-green.vercel.app/tela-inicial
