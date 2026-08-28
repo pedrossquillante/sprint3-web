@@ -30,11 +30,8 @@ Would you like to include AGENTS.md? → No
 
 # 3 - Como executar o projeto
 
-Depois da instalação, entre na pasta do projeto e inicie o servidor de desenvolvimento:
-
-cd meu-app
-npm run dev
-Acesse o navegador no endereço http://localhost:3000 para ver a aplicação funcionando.
+Depois da instalação, entre na pasta do projeto e inicie o servidor de desenvolvimento com "cd meu-app" e depois "npm run dev"
+Em seguida, acesse o navegador no endereço http://localhost:3000 para ver a aplicação funcionando.
 
 ## PONTO IMPORTANTE
 Após a criação do projeto, observe alguns arquivos gerados automaticamente:
